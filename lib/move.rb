@@ -15,7 +15,6 @@ end
 
 def move (board, player_input, player_character = "X")
   player_character = gets.strip
-  board << player_input
   board[player_input] = player_character
 end
 
