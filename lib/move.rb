@@ -16,7 +16,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move (board, player_input_sub, player_character = "X")
   player_character = gets.strip
-  board[player_input] = player_character
+  board[player_input_sub] = player_character
 end
 
 
