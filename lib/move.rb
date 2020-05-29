@@ -14,7 +14,7 @@ def input_to_index(player_input = "1")
 end
 
 
-def move(array, player_input_sub, player_character = "X")
+def move(board, player_input_sub, player_character = "X")
   player_character = gets.strip
   board[player_input_sub] = player_character
 end
