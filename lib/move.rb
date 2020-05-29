@@ -13,8 +13,9 @@ def input_to_index(player_input = "1")
   player_input_sub = player_input - 1
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def move (board, player_input_sub, player_character = "X")
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   player_character = gets.strip
   board[player_input_sub] = player_character
 end
